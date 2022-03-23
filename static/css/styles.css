@@ -384,7 +384,12 @@ text-decoration: none;
     }
 }
 
+.media-object{
+    border-radius: 50%;
+    height : 190px;
+    width : 180px;
 
+}
 
 .parallax-promo {
     background-image: url(cover.jpeg);
