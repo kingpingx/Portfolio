@@ -17,6 +17,7 @@ import os, dotenv
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 dotenv_file = os.path.join(BASE_DIR, ".env")
+print(dotenv_file)
 if os.path.isfile(dotenv_file):
     dotenv.load_dotenv(dotenv_file)
 
