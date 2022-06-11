@@ -1296,9 +1296,9 @@ text-decoration: none;
 
 #contact{
     background-color: #000000;
+    position: relative;
     color: rgb(255, 255, 255);
     font-family: Montserrat;
-    z-index: -2;
 }
 
 .section-title{
@@ -1517,4 +1517,8 @@ form button{
         cursor: pointer;
     }
 
+    }
+
+    .ontop{
+        z-index: -1;
     }
